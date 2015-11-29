@@ -22,12 +22,19 @@ function run($ionicPlatform) {
 
 function config($stateProvider, $urlRouterProvider){
     
-    $stateProvider.state('dashboard',{
+  $stateProvider.state('dashboard',{
         url:'/',
         templateUrl:'js/dashboard/dashboard.html',
         controller:'DashCtrl',
         controllerAs: 'vm'
       });
 
-     $urlRouterProvider.otherwise('/');
+    $stateProvider.state('charts',{
+        url:'/charts',
+        templateUrl:'js/charts/charts.html',
+        controller:'ChartCtrl',
+        controllerAs: 'vm'
+      });
+
+     $urlRouterProvider.otherwise('/charts');
 }
