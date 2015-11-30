@@ -6,13 +6,13 @@ angular.module('ionicApp', ['ionic'])
     .state('tabs', {
       url: "/tab",
       abstract: true,
-      templateUrl: "templates/tabs.html"
+      templateUrl: "js/templates/tabs.html"
     })
     .state('tabs.home', {
       url: "/home",
       views: {
         'home-tab': {
-          templateUrl: "templates/home.html",
+          templateUrl: "js/templates/home.html",
           controller: 'HomeTabCtrl'
         }
       }
@@ -21,7 +21,7 @@ angular.module('ionicApp', ['ionic'])
       url: "/facts",
       views: {
         'home-tab': {
-          templateUrl: "templates/facts.html"
+          templateUrl: "js/templates/facts.html"
         }
       }
     })
@@ -29,7 +29,7 @@ angular.module('ionicApp', ['ionic'])
       url: "/facts2",
       views: {
         'home-tab': {
-          templateUrl: "templates/facts2.html"
+          templateUrl: "js/templates/facts2.html"
         }
       }
     })
@@ -37,7 +37,7 @@ angular.module('ionicApp', ['ionic'])
       url: "/about",
       views: {
         'about-tab': {
-          templateUrl: "templates/about.html"
+          templateUrl: "js/templates/about.html"
         }
       }
     })
@@ -45,7 +45,7 @@ angular.module('ionicApp', ['ionic'])
       url: "/navstack",
       views: {
         'about-tab': {
-          templateUrl: "templates/nav-stack.html"
+          templateUrl: "js/templates/nav-stack.html"
         }
       }
     })
@@ -53,7 +53,7 @@ angular.module('ionicApp', ['ionic'])
       url: "/contact",
       views: {
         'contact-tab': {
-          templateUrl: "templates/contact.html"
+          templateUrl: "js/templates/contact.html"
         }
       }
     });
