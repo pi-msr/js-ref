@@ -1,0 +1,17 @@
+<ion-view class="vm-gems">
+  <div class="entry-body animated" ng-class="vmGems.getAnimationClass()" on-swipe-up="vmGems.swipeUp()" on-swipe-down="vmGems.swipeDown()">
+    <div class="entry-body-text">
+      <div marked="vmGems.pageCurrent.bodyText">
+      </div>
+    </div>
+    <a ng-repeat="featureButton in vmGems.pageCurrent.featureButtons" class="entry-button entry-button-{{$index}}" ng-click="featureButtonClick(featureButton)" ng-class="vmGems.getAnimationClass()">
+      <i class="icon" ng-class="featureButton.fields.buttonIconClass"></i>
+      <div class="button-text" marked="featureButton.fields.buttonText"></div>
+    </a>
+  </div>
+  <div class="leader-image animated-3s fadeIn" on-swipe-up="vmGems.swipeUp()" on-swipe-down="vmGems.swipeDown()" ng-if="!vmGems.isGifPlaying">
+    <img ng-src="{{vmGems.pageCurrent.leaderImage.fields.file.url}}" />
+    <img ng-src="{{vmGems.pageCurrent.pageAfter.fields.forwardGif.fields.file.url}}" class="hide" />
+    <img ng-src="{{vmGems.pageCurrent.pageBefore.fields.backwardGif.fields.file.url}}" class="hide" />
+  </div>
+</ion-view>

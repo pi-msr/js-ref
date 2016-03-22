@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="2048px" height="1536px" viewBox="0 0 2048 1536" enable-background="new 0 0 2048 1536" xml:space="preserve">
+<rect x="353" y="1216" fill-rule="evenodd" clip-rule="evenodd" fill="#E6E6E5" width="1695" height="192"/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#F3F3F3" points="352,1408 0,1408 0.1,128 352,128 "/>
+<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#F3F3F3" points="2048,1216 1856,1216 1856.1,128 2048,128 "/>
+<path fill="#5288A0" d="M168.3,419.7h-16.7c-0.9,0-1.6-0.7-1.6-1.6s0.7-1.6,1.6-1.6h16.7c0.9,0,1.6,0.7,1.6,1.6
+	S169.2,419.7,168.3,419.7z"/>
+<line fill="none" stroke="#5288A0" stroke-width="2" stroke-miterlimit="10" x1="32" y1="322" x2="320" y2="322"/>
+<line fill="none" stroke="#5288A0" stroke-width="2" stroke-miterlimit="10" x1="32" y1="676" x2="320" y2="676"/>
+<rect x="352" y="128" fill="#08445E" width="1" height="1280"/>
+<g>
+	<path fill="#5288A0" d="M312,357.2c2.6,0,4.8,2.2,4.8,4.8v112c0,2.6-2.2,4.8-4.8,4.8H40c-2.6,0-4.8-2.2-4.8-4.8V362
+		c0-2.6,2.2-4.8,4.8-4.8H312 M312,354H40c-4.4,0-8,3.6-8,8v112c0,4.4,3.6,8,8,8h272c4.4,0,8-3.6,8-8V362
+		C320,357.6,316.4,354,312,354L312,354z"/>
+</g>
+<rect y="1216" fill-rule="evenodd" clip-rule="evenodd" fill="#0F3551" width="352" height="192"/>
+<rect x="353" y="128" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="1503" height="1088"/>
+<rect y="1408" width="2048" height="128"/>
+<rect width="2048" height="128"/>
+</svg>

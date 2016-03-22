@@ -1,0 +1,17 @@
+<ion-view class="vm-geri-feature">
+  <div class="entry-body animated" on-swipe-up="vmGeriFeature.swipeUp()" on-swipe-down="vmGeriFeature.swipeDown()" ng-class="vmGeriFeature.getAnimationClass()">
+    <div class="entry-body-text">
+      <div marked="vmGeriFeature.pageCurrent.bodyText">
+      </div>
+    </div>
+    <a ng-repeat="featureButton in vmGeriFeature.pageCurrent.featureButtons" class="entry-button entry-button-{{$index}}" ng-click="featureButtonClick(featureButton,true)"><i class="icon" ng-class="featureButton.fields.buttonIconClass"></i>
+      <div class="button-text" marked="featureButton.fields.buttonText"></div>
+    </a>
+  </div>
+  <div class="leader-image animated-3s fadeIn" on-swipe-up="vmGeriFeature.swipeUp()" on-swipe-down="vmGeriFeature.swipeDown()" ng-if="!vmGeriFeature.isGifPlaying">
+    <img ng-src="{{vmGeriFeature.pageCurrent.leaderImage.fields.file.url}}" />
+    <!-- preload gif files for smooth transition -->
+    <img ng-src="{{vmGeriFeature.pageCurrent.pageAfter.fields.forwardGif.fields.file.url}}" class="preload-image" />
+    <img ng-src="{{vmGeriFeature.pageCurrent.pageBefore.fields.backwardGif.fields.file.url}}" class="preload-image" />
+  </div>
+</ion-view>

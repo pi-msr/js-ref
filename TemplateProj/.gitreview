@@ -1,0 +1,5 @@
+[gerrit]
+host=gerrit.compendium.localnet
+port=29418
+project=compendium
+defaultbranch=master

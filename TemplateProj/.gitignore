@@ -1,0 +1,14 @@
+node_modules/
+bower_components/
+coverage/
+.sass-cache/
+.idea/
+.tmp/
+dist/
+cordova
+src/assets/images.contentful.com
+src/assets/videos.contentful.com
+src/assets/assets.contentful.com
+src/assets/json
+.DS_Store
+src/assets/video

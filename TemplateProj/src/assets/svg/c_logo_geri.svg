@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 44.1 35" style="enable-background:new 0 0 44.1 35;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#58A528;}
+	.st1{fill:#7E8081;}
+	.Drop_x0020_Shadow{fill:none;}
+	.Round_x0020_Corners_x0020_2_x0020_pt{fill:#FFFFFF;stroke:#231F20;stroke-miterlimit:10;}
+	.Live_x0020_Reflect_x0020_X{fill:none;}
+	.Bevel_x0020_Soft{fill:url(#SVGID_1_);}
+	.Dusk{fill:#FFFFFF;}
+	.Foliage_GS{fill:#FFDC00;}
+	.Pompadour_GS{fill-rule:evenodd;clip-rule:evenodd;fill:#44ACE1;}
+	.Graphic_x0020_Style{fill-rule:evenodd;clip-rule:evenodd;fill:#262A33;}
+	.st2{fill:#95D4D1;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#FFFFFF;stroke-width:1.0032;stroke-miterlimit:10;}
+	.st5{fill:#FFFFFF;stroke:#503291;stroke-width:0.875;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#503291;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:#FFFFFF;}
+	.st8{fill:#503291;}
+	.st9{clip-path:url(#SVGID_21_);fill:#503291;}
+	.st10{clip-path:url(#SVGID_21_);}
+	.st11{fill:#A5CD50;}
+	.st12{fill:#7E8083;}
+	.st13{fill:none;stroke:#503291;stroke-width:2;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#95D4D1;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#503291;stroke-width:1.1713;stroke-miterlimit:10;}
+	.st16{opacity:0.2;}
+	.st17{fill:#231F20;}
+	.st18{fill-rule:evenodd;clip-rule:evenodd;fill:#00B4AE;}
+	.st19{fill:#DCDCDC;}
+	.st20{fill:#8C8C8C;}
+	.st21{fill:#6B6D70;}
+	.st22{fill:none;}
+	.st23{fill:#E50278;}
+	.st24{fill:none;stroke:#503291;stroke-width:0.5667;stroke-miterlimit:10;}
+	.st25{fill:#16BECF;}
+	.st26{fill:#FFFFFF;stroke:#503291;stroke-miterlimit:10;}
+	.st27{fill:none;stroke:#503291;stroke-miterlimit:10;}
+	.st28{opacity:0.2;fill:#FFFFFF;}
+	.st29{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st30{opacity:0.3;fill:none;stroke:#FFFFFF;stroke-width:5;stroke-miterlimit:10;}
+	.st31{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+	.st32{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:5.0187,5.0187;}
+	.st33{fill:none;stroke:#A5CD50;stroke-width:8;stroke-miterlimit:10;}
+	.st34{clip-path:url(#SVGID_37_);fill:#95D4D1;}
+	.st35{clip-path:url(#SVGID_37_);fill:#A5CD50;}
+	.st36{fill:url(#SVGID_38_);}
+	.st37{fill:#7E8081;stroke:#7E8081;stroke-width:0.2678;stroke-miterlimit:10;}
+	.st38{fill:#F2F2F2;}
+</style>
+<symbol  id="geri_x5F_logo" viewBox="-47.3 -37.5 94.5 75">
+	<path class="st0" d="M-22.5,37.1h-14c4.1-3.4,6.7-8.2,6.7-13.5c0-5.4-2.7-10.3-7-13.7h14.3c1.3,0,2.4,1.1,2.4,2.4v22.4
+		C-20.1,36.1-21.2,37.1-22.5,37.1 M-40.7,9.9h-4.1c-1.3,0-2.4,1.1-2.4,2.4v22.4c0,1.3,1.1,2.4,2.4,2.4h4.6c5-2.9,8.4-7.9,8.4-13.5
+		C-31.9,17.9-35.5,12.8-40.7,9.9"/>
+	<path class="st1" d="M35.1,26.6h-2.8c-1.2,0-1.6-0.4-1.6-1.5c0-1.1,0.2-1.6,1.6-1.6c1,0,2,0.4,2.9,0.9V26.6z M37,22.1h-1.6L35.3,23
+		c-1-0.7-2.3-1-3.6-1c-2.1,0-2.9,1.2-2.9,3.2c0,2.3,1.2,3.1,3.4,3.1h3v1.7c0,1.4-0.6,1.9-2.4,1.9c-1.1,0-2.5-0.2-3.3-0.4L29.2,33
+		c1,0.3,2.5,0.5,3.6,0.5c3.2,0,4.2-1.2,4.2-3.6V22.1z M20.6,28.5h4.8v0.9c0,1.5-0.5,2.4-2.3,2.4c-1.8,0-2.4-0.9-2.4-2.4V28.5z
+		 M23.2,23.5c1.1,0,2.3,0.2,3.5,0.5l0.3-1.5c-1-0.4-2.5-0.6-3.9-0.6c-3.3,0-4.4,1.6-4.4,4.1v3.3c0,2.3,1,4.1,4.3,4.1
+		c3.3,0,4.2-1.9,4.2-4.2v-2.3h-6.6V26C20.6,24.3,21,23.5,23.2,23.5 M14.7,22.1v8.5c0,0.7-0.4,1-1.1,1c-0.8,0-2.5-0.5-3.7-1.1v-8.4H8
+		v11.1h1.5l0.2-1c1.2,0.6,3.1,1.2,4.5,1.2c1.8,0,2.4-1.1,2.4-2.8v-8.5H14.7z M-0.6,28.5h4.8v0.9c0,1.5-0.5,2.4-2.3,2.4
+		c-1.8,0-2.4-0.9-2.4-2.4V28.5z M2,23.5c1.1,0,2.3,0.2,3.5,0.5l0.3-1.5c-1-0.4-2.5-0.6-3.9-0.6c-3.3,0-4.4,1.6-4.4,4.1v3.3
+		c0,2.3,1,4.1,4.3,4.1c3.3,0,4.2-1.9,4.2-4.2v-2.3h-6.6V26C-0.6,24.3-0.1,23.5,2,23.5 M-12.4,26.5c0-1.9,0.6-2.8,3.2-2.8
+		c0.8,0,1.8,0.1,2.8,0.3v5.1h1.9v-6.5c-1.5-0.4-3.2-0.7-4.8-0.7c-3.9,0-5,1.7-5,4.5V33c0,3.1,1.5,4.5,5.3,4.5c1.3,0,2.8-0.2,4.2-0.5
+		l-0.2-1.7c-1.5,0.2-2.8,0.4-4.1,0.4c-2.5,0-3.2-0.8-3.2-2.8V26.5z"/>
+	<path class="st0" d="M-14.3,10v9.4h3.6c1.5,0,2.2-0.7,2.2-1.9v-1.1c0-0.7-0.2-1.3-1.1-1.6c0.8-0.1,1.4-0.7,1.4-1.7V12
+		c0-1.3-0.9-2-2.3-2H-14.3z M-9.7,17.5c0,0.6-0.3,0.9-1.1,0.9h-2.4v-3.1h2.2c0.9,0,1.3,0.4,1.3,1.1V17.5z M-9.4,13.1
+		c0,0.8-0.4,1.2-1.4,1.2h-2.4V11h2.5c0.9,0,1.3,0.4,1.3,1.1V13.1z"/>
+	<rect x="-6.6" y="10" class="st0" width="1.2" height="9.4"/>
+	<g>
+		<path class="st0" d="M3.3,12.7c0-1.6-1-2.9-3.4-2.9c-2.4,0-3.4,1.3-3.4,2.9v4c0,1.6,1,2.9,3.4,2.9c2.4,0,3.4-1.3,3.4-2.9V12.7z
+			 M-2.4,12.7c0-1.2,0.7-1.8,2.2-1.8c1.5,0,2.2,0.7,2.2,1.8v3.9c0,1.2-0.7,1.8-2.2,1.8c-1.5,0-2.2-0.7-2.2-1.8V12.7z"/>
+	</g>
+	<polygon class="st0" points="11.9,19.4 9.2,12.1 6.5,19.4 4.9,19.4 4.9,10 6.1,10 6.2,10 6.2,17.1 8.4,11.2 10,11.2 12.3,17.1 
+		12.3,10 12.3,10 13.5,10 13.5,19.4 	"/>
+	<polygon class="st0" points="15.4,19.4 20.9,19.4 20.9,18.3 16.6,18.3 16.6,15.3 20.6,15.3 20.6,14.3 16.6,14.3 16.6,11.1 21,11.1 
+		21,10 15.4,10 	"/>
+	<g>
+		<path class="st0" d="M25.8,19.4c2.3,0,3-1.2,3-2.7v-4c0-1.5-0.7-2.7-3-2.7h-3.3v9.4H25.8z M23.7,11.1h2c1.4,0,1.9,0.6,1.9,1.7v3.9
+			c0,1.1-0.4,1.7-1.9,1.7h-2V11.1z"/>
+	</g>
+	<polygon class="st0" points="35.7,19.4 33.3,15.7 31,19.4 29.7,19.4 32.7,14.8 29.6,10 30.9,10 33.3,13.8 35.8,10 37.1,10 34,14.8 
+		37,19.4 	"/>
+	<g>
+		<path class="st0" d="M25.1-16c1.9,1.3,5.3,3.5,8.3,5l0.4,0.2L33-4.6L32.2-5C29.7-6,27-7.6,24.7-9.2l-0.3,3.7h-5.8v-31.8h6.6V-16z"
+			/>
+		<path class="st0" d="M11.6-23.5v7c0,8.1-4.1,12.2-12.1,12.2c-8.2,0-12.6-4.2-12.6-12v-9.1c0-8,4.2-11.8,12.7-11.8
+			c3.8,0,7.9,0.7,11,1.8l0.5,0.2l-0.9,5.4l-0.7-0.2C6-31,2.8-31.5,0.1-31.5c-5.7,0-6.6,1.8-6.6,6.1v1.9H11.6z M-6.5-15.9
+			c0,4.2,1.7,6,6,6c4.2,0,5.7-1.6,5.7-6v-1.9H-6.5V-15.9z"/>
+		<rect x="40.7" y="-2" class="st0" width="6.6" height="8.9"/>
+		<rect x="40.7" y="-37.3" class="st0" width="6.6" height="31.8"/>
+		<path class="st0" d="M-20.2-18.1h-1.1h-5.5h-5.4v-5.6h5.4v-7c-2.6-0.5-4.9-0.6-6.4-0.6c-6.2,0-7.3,1.9-7.3,6.3v16.6
+			c0,4.4,1.1,6.3,7.5,6.3c3,0,6.5-0.3,10.3-1l0.9-0.2l0.8,6l-0.8,0.2c-3.6,0.8-7.5,1.2-11,1.2c-10,0-14.5-3.8-14.5-12.4v-17.1
+			c0-8.5,4.3-12.3,13.8-12.3c4.2,0,8.8,0.6,12.6,1.7l0.6,0.2V-18.1z"/>
+	</g>
+</symbol>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-2093.9617" y1="766.0577" x2="-2093.2546" y2="766.7648">
+	<stop  offset="0" style="stop-color:#DDDEE2"/>
+	<stop  offset="0.1791" style="stop-color:#D9DADE"/>
+	<stop  offset="0.3627" style="stop-color:#CDCED2"/>
+	<stop  offset="0.5483" style="stop-color:#B8BBBE"/>
+	<stop  offset="0.7355" style="stop-color:#9B9FA1"/>
+	<stop  offset="0.922" style="stop-color:#777C7D"/>
+	<stop  offset="1" style="stop-color:#656B6C"/>
+</linearGradient>
+<g id="images">
+</g>
+<g id="frames">
+</g>
+<g id="Layer_35">
+	<g id="Video_Masked">
+	</g>
+	<g id="video_x5F_purple_x5F_pos">
+	</g>
+	<g id="simulator_x5F_purple_x5F_pos">
+	</g>
+	
+		<use xlink:href="#geri_x5F_logo"  width="94.5" height="75" id="XMLID_25_" x="-47.3" y="-37.5" transform="matrix(0.4667 0 0 -0.4667 22.0532 17.5)" style="overflow:visible;"/>
+</g>
+<g id="Layer_3">
+</g>
+</svg>

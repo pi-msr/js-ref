@@ -1,0 +1,48 @@
+@import '../../variables';
+.vm-main {
+  .nav-button {
+    display: block;
+    position: absolute;
+    left: 10%;
+    background-color: none;
+    width: 85%;
+    height: 40px;
+  }
+  .nav-button-0 {
+    // Gavi
+    top: 39%;
+  }
+  .nav-button-1 {
+    // Gems
+    top: 49%;
+  }
+  .nav-button-2 {
+    // Geri
+    top: 59%;
+  }
+  .nav-button-3 {
+    // Geri Connect Assess
+    top: 69%;
+  }
+  .nav-button-4 {
+    // Eeva
+    top: 79%;
+  }
+  .nav-home {
+    position: absolute;
+    top: 45px;
+    left: 38px;
+    font-size: 31px;
+    width: 305px;
+    color: $compendium-purple;
+  }
+  .nav-breadcrumb {
+    position: absolute;
+    left: 83px;
+    top: 51px;
+    width: 260px;
+    font-size: 10px;
+    color: $compendium-purple;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "fromRepo": ".",
+  "fromCommit": "c05fbedf2f2dbd505b65e69101c540c3978b3f55",
+  "toRef": "refs/heads/master",
+
+  "dateFormat": "YYYY-MM-dd",
+  "timeZone": "Australia/Melbourne",
+  "removeIssueFromMessage": "true"
+
+}

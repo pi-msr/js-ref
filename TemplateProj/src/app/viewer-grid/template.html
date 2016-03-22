@@ -1,0 +1,13 @@
+<div class="vm-viewer-grid">
+  <div class="duplicated-data">
+    <div class="field" ng-repeat="field in vmViewerGrid.duplicatedData">
+      <div>{{field.name}}:{{field.value}} </div>   
+    </div>
+  </div>
+  <div ui-grid="vmViewerGrid.gridOptions" class="grid animated zoomIn"></div>
+  <div class="top-bar">
+    <i class="c-icn-close" ng-click="vmViewerGrid.back()"></i>
+  </div>
+  <div class="bottom-bar">
+  </div>
+</div>

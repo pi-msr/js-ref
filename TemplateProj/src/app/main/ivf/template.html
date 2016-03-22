@@ -1,0 +1,8 @@
+<ion-view>
+  <div class="vm-ivf">
+    <div class="background-image">
+      <img ng-src="{{vmIvf.entry.backgroundImage.fields.file.url}}" />
+    </div>
+    <a ng-repeat="buttonLink in vmIvf.entry.buttonLinks" class="nav-button animated-5s fadeOut infinite nav-button-{{$index}}" ui-sref="{{buttonLink}}"></a>
+  </div>
+</ion-view>

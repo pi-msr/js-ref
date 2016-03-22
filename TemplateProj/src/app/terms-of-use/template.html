@@ -1,0 +1,38 @@
+<ion-view class="vm-terms-bg">
+  <div class="background-image">
+    <img-gif ng-src="{{vmTerms.entry.backgroundImage.fields.file.url}}" />
+  </div>
+  <div class="vm-terms animated" ng-if="vmTerms.isEntering" ng-class="vmTerms.getAnimationClass()">
+    <div class="terms-logo-block">
+      <img class="logo" src="assets/svg/c_logo_merck_green.svg" />
+    </div>
+    <div class="terms-content-block">
+      <h2 class="terms-title">In which country are you based?</h2>
+      <label class="item item-input item-select">
+        <div class="input-label">
+          <i class="ion-arrow-down-b"></i>
+        </div>
+        <select ng-change="vmTerms.changedCountry()" ng-model="vmTerms.selectedCountry">
+          <option ng-repeat="item in vmTerms.selectItems" value="{{item.value}}">{{item.text}}</option>
+        </select>
+      </label>
+      <ion-scroll>
+        <div marked="vmTerms.translatedText">
+        </div>
+      </ion-scroll>
+    </div>
+    <div class="terms-agreement">
+      <span class="agree-text" ng-click="vmTerms.agree()">
+          <div class="agree-checkboxes">
+            <img class="agree-checkbox" ng-if="vmTerms.isAgreed"
+            ng-click="vmTerms.agree()" src="assets/svg/c_icn_checkbox_on.svg"/>
+            <img class="disagree-checkbox" ng-if="!vmTerms.isAgreed"  src="assets/svg/c_icn_checkbox_off.svg"/>
+          </div>
+          {{vmTerms.agreeText}}
+        </span>
+      <div class="agree-proceed" ng-click="vmTerms.proceed()">
+        <i ng-class="{'proceed c-icn-confirm':true, 'inactive': !vmTerms.isAgreed, 'active': vmTerms.isAgreed}"></i>
+      </div>
+    </div>
+  </div>
+</ion-view>

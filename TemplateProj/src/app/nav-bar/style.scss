@@ -1,0 +1,85 @@
+@import '../variables';
+.vm-nav-bar {
+  z-index: 100;
+  position: absolute;
+  font-size: 24px;
+  color: $compendium-purple;
+  .nav-home,
+  .nav-breadcrumb,
+  .nav-button-container {
+    position: absolute;
+  }
+  .nav-home {
+    top: 45px;
+    left: 38px;
+    font-size: 31px;
+    width: 305px;
+  }
+  .nav-breadcrumb {
+    left: 83px;
+    top: 51px;
+    width: 260px;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .nav-button-container {
+    left: 500px;
+    width: 600px;
+    top: 105px;
+  }
+  .nav-button {
+    display: inline;
+    padding-right: 16px;
+    a {
+      font-family: "Merck Regular";
+      font-size: 18px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .active-item {
+      color: $nav-bar-green;
+    }
+  }
+  .separator {
+    border-left: 1px solid #fff;
+    padding-left: 25px;
+  }
+  .nav-section-logo {
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    img {
+      height: 100px;
+    }
+  }
+}
+
+.nav-sub-view .pane {
+  background-color: transparent;
+}
+
+.nav-gif {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 1024px;
+  height: 768px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.footer-background {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  z-index: 100;
+}
+
+.header-background,
+.footer-background {
+  img {
+    width: 100%;
+  }
+}

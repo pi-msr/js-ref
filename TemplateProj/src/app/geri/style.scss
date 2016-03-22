@@ -1,0 +1,106 @@
+@import '../variables';
+.vm-geri-feature {
+  .entry-body {
+    height: 100%;
+    width: 100%;
+  }
+  .entry-body-text {
+    position: absolute;
+    left: 0px;
+    top: 210px;
+    width: 373px;
+    font-size: 14px;
+    padding-left: 76px;
+  }
+  h2 {
+    font-size: 18px;
+    color: $compendium-purple;
+  }
+  h3 {
+    font-size: 14px;
+    color: $compendium-purple;
+    margin-bottom: 0px;
+  }
+  h4 {
+    color: $compendium-purple;
+    padding: 0px 12px;
+  }
+  hr {
+    // add support to two Geri logos
+    margin-top: 120px;
+    border-width: 0;
+  }
+  strong,
+  .strong {
+    // numbers with round circle
+    font-size: 12px;
+    font-weight: normal;
+    position: absolute;
+    left: 40px;
+    margin-top: -3px;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid;
+    padding-top: 3px;
+  }
+  ol {
+    // order list
+    list-style-type: decimal;
+    font-size: 12px;
+    margin-top: -12px;
+    margin-left: 15px;
+  }
+  .leader-image {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+  .entry-button {
+    position: absolute;
+    top: 590px;
+    font-size: 14px;
+    z-index: 2;
+    .icon {
+      position: absolute;
+      color: $compendium-purple;
+      font-size: 60px;
+    }
+    .button-text {
+      padding-left: 85px;
+      width: 235px;
+      padding-top: 10px;
+    }
+  }
+  .entry-button-0 {
+    left: 75px;
+    height: 60px;
+  }
+  .entry-button-1 {
+    .icon {
+      font-size: 40px;
+    }
+    left: 900px;
+    .button-text {
+      position: absolute;
+      left: -240px;
+    }
+  }
+  .entry-gif {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 1024px;
+    height: 768px;
+    z-index: -100;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .leader-image img {
+    position: absolute;
+    width: 1024px;
+  }
+}

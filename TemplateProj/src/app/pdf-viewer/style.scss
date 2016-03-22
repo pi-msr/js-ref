@@ -1,0 +1,88 @@
+.vm-pdf-viewer {
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.ion-scroller {
+  width:1024px;
+  height:620px;
+}
+
+.pdf-footer {
+  background-color: #95D4D1;
+  opacity: 0.8;
+  height: 10vh !important;
+  width: 100%;
+  position: absolute;
+  top: 90vh;
+}
+
+.page-num {
+  width:40px;
+  text-align:center;
+  float:left;
+  color:#95D4D1;
+  background-color:#FFFFFF;
+  transform:translateY(-15%);
+}
+
+#prev-button {
+  float: right;
+  color:#FFFFFF;
+  font-size:1.5em;
+  margin-right: 72%;
+}
+
+#next-button {
+  float: left;
+  color:#FFFFFF;
+  font-size:1.5em;
+  margin-right: 2%;
+}
+
+.nav-controls {
+  background-color: #95D4D1;
+  opacity: 0.8;
+  height: 10vh !important;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.pdf-controls-nav {
+  width: 100%;
+  background: #95D4D1;
+  display:block;
+  padding: 1em;
+  height:10vh;
+}
+
+.pdf-controls-footer {
+  width: 100%;
+  background: #95D4D1;
+  display:block;
+  padding: 1em;
+  height:10vh;
+}
+
+.pdf-button {
+  display:inherit;
+  color: #FFFFFF;
+  position:relative;
+  font-size:1.8em;
+  transform:translateY(50%);
+}
+
+.c-icn-close {
+  float:right;
+  margin-right: 4%;
+}
+
+canvas {
+  padding:0px 10px 0px 10px;
+}
+
+}

@@ -1,0 +1,12 @@
+<ion-view class="vm-document">
+  <div class="entry-body animated" on-swipe-up="vmDocument.swipeUp()" on-swipe-down="vmDocument.swipeDown()" ng-class="vmDocument.getAnimationClass()">
+    <div class="background-image">
+      <img ng-src="{{vmDocument.pageCurrent.backgroundImage.fields.file.url}}" />
+    </div>
+    <div class="buttons-container" ng-class="vmDocument.getColumnCount()">
+      <a ng-repeat="featureButton in vmDocument.pageCurrent.featureButtons" class="feature-button feature-button-{{$index}}" ng-click="featureButtonClick(featureButton)">
+        <div class="button-text"><i class="icon c-icn-menu-item"></i>{{featureButton.fields.buttonText}}</div>
+      </a>
+    </div>
+  </div>
+</ion-view>

@@ -1,0 +1,109 @@
+/*!
+/* Copyright (c) 2015, Planet Innovation
+ * 436 Elgar Road, Box Hill, 3128, VIC, Australia
+ * Phone: +61 3 9945 7510
+ * The copyright to the computer program(s) herein is the property of
+ * Planet Innovation, Australia.
+ * The program(s) may be used and/or copied only with the written permission
+ * of Planet Innovation or in accordance with the terms and conditions
+ * stipulated in the agreement/contract under which the program(s) have been
+ * supplied.
+*/
+
+
+/* Do not remove the comments below. It's the markers used by wiredep to inject
+   sass dependencies when defined in the bower.json of your dependencies */
+
+// bower:scss
+// endbower
+@import 'bower_components/ionic/scss/ionic';
+@font-face {
+  font-family: "Verdana Regular";
+  src: url("../fonts/verdana.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Verdana Bold";
+  src: url("../fonts/verdanab.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Verdana Italic";
+  src: url("../fonts/verdanai.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merck Regular";
+  src: url("../fonts/Merck.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'videogular';
+  src: url("../fonts/videogular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ui-grid';
+  src: url("../fonts/ui-grid.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html * {
+  font-family: "Verdana Regular";
+}
+
+a {
+  text-decoration: none;
+}
+
+.pane {
+  background-color: transparent;
+}
+
+.background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.preload-image {
+  width: 0.1px;
+  height: 0.1px;
+}
+
+.animated-3s {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated-5s {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+/* Do not remove the comments below. It's the markers used by gulp-inject to inject
+   all your sass files automatically */
+
+// injector
+// endinjector

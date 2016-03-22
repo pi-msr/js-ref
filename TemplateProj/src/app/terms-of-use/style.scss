@@ -1,0 +1,137 @@
+@import '../variables';
+ion-view.vm-terms-bg {
+  background-color: $compendium-purple;
+}
+
+.others-popup {
+    font-size: 1em;
+    .popup-title {
+      font:bold;
+      font-size: 1.1em;
+    }
+
+    .button.button-positive {
+      background-color:#301E57;
+      border-color:#301E57;
+      color:#fff;
+    }
+
+    .button.button-positive.activated {
+      background-color:#301E57;
+      border-color:#301E57;
+      color:#fff;
+    }
+}
+
+.vm-terms {
+  background-color: #fff;
+  width: 90vw;
+  margin: 5vh auto;
+  height: 90vh;
+  padding: 0px 3vw;
+  h1,
+  h2,
+  h3 {
+    font-size: 1em;
+    font-weight: 900;
+  }
+  .item-select {
+    border: none;
+    background: $compendium-purple;
+    width: 240px;
+    select {
+      left: 0;
+      right: none;
+      max-width: none;
+      background-color: transparent;
+      color: #fff;
+      direction: ltr;
+    }
+    .input-label {
+      width: 100%;
+      text-align: right;
+      color: $compendium-purple;
+      padding: 0;
+      i {
+        margin-right: -20px;
+        &:before {
+          font-size: 30px;
+          background-color: #fff;
+          padding: 2px 6px;
+        }
+      }
+    }
+    &:after {
+      content: none;
+    }
+  }
+  .terms-logo-block {
+    width: 100%;
+    height: 12vh;
+    img.logo {
+      height: 3vh;
+      top: 50%;
+      padding-right: 12px;
+      float: right;
+      position: relative;
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+    }
+  }
+  .terms-agreement {
+    display: table;
+    padding-top: 3vh;
+    width: 100%;
+    border-top: 1px solid $compendium-purple;
+    .agree-checkboxes {
+      width: 4vw;
+      height: 4vw;
+      display: inline;
+      margin-top: -10px;
+      float: left;
+      .agree-checkbox {
+        margin-top: 1px;
+      }
+    }
+    .agree-text {
+      display: table-cell;
+      vertical-align: middle;
+      width: 50%;
+    }
+    .agree-proceed {
+      width: 50%;
+      display: table-cell;
+    }
+  }
+
+  .proceed {
+    width: 5vw;
+    float: right;
+    font-size: 3.5em;
+  }
+  i.inactive {
+    color: #CDCDCD;
+  }
+  i.active {
+    color: $compendium-green;
+  }
+  .terms-content-block {
+    padding: 12px;
+    height: 64vh;
+  }
+  .terms-title {
+    font-size: 1em;
+    font-weight: 800;
+  }
+  ion-scroll {
+    height: 86%;
+    padding-top: 2vh;
+  }
+  .button-agree {
+    margin: 20px;
+    background-color: $compendium-purple;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+  }
+}

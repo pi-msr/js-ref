@@ -1,0 +1,10 @@
+<ion-view>
+  <div class="vm-main">
+    <div class="background-image">
+      <img ng-src="{{vmMain.entry.backgroundImage.fields.file.url}}" />
+    </div>
+    <div class="nav-home" ui-sref="fertility"><i class="icon c-icn-home"></i></div>
+    <div class="nav-breadcrumb"><span ui-sref="home">IVF LABORATORY</span></div>
+    <a ng-repeat="featureButton in vmMain.entry.featureButtons" class="nav-button nav-button-{{$index}}" ng-click="featureButtonClick(featureButton)"></a>
+  </div>
+</ion-view>

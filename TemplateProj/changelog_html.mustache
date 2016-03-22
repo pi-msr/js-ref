@@ -1,0 +1,31 @@
+<h1> Compendium Git Changelog </h1>
+
+{{#tags}}
+  <div class="tag-container" style="background-color:gray;padding:10px;margin:20px 0;">
+  <h2 style="color:blue;"> TestFlight Release: {{name}} </h2>
+   {{#issues}}
+    {{#hasIssue}}
+     {{#hasLink}}
+        <h3> {{name}} <a href="{{link}}">{{issue}}</a> {{title}} </h3>
+     {{/hasLink}}
+     {{^hasLink}}
+        <h3> {{name}} <a href="https://planetinnovation.atlassian.net/browse/{{issue}}">{{issue}}</a> {{title}} 
+        </h3>
+     {{/hasLink}}
+    {{/hasIssue}}
+    {{^hasIssue}}
+      <h3> Before JIRA: {{name}} name</h3>
+    {{/hasIssue}}
+
+
+     {{#commits}}
+     <p>
+      {{messageTitle}}
+     </p>
+       <a href="https://gerrit.compendium.localnet/#/q/{{hash}}">{{hash}}</a> <i>{{commitTime}}</i>
+    {{/commits}}
+
+   {{/issues}}
+
+   </div>
+{{/tags}}

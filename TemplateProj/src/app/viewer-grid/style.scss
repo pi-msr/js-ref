@@ -1,0 +1,39 @@
+.vm-viewer-grid {
+  height: 100%;
+  .grid {
+    height: 70%;
+  }
+  .top-bar,
+  .bottom-bar {
+    background-color: rgba(149, 212, 209, 0.8);
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    z-index: 10;
+  }
+  .top-bar {
+    top: 0;
+  }
+  .bottom-bar {
+    bottom: 0;
+  }
+  .c-icn-close {
+    position: absolute;
+    right: 40px;
+    top: 22px;
+    font-size: 34px;
+    color: #fff;
+  }
+  .duplicated-data {
+    margin: 7% 0.5% 0.5% 0.5%;
+    border-style:outset;
+    border-color:#95D4D1;
+    border-width: medium;
+    .field {
+      display: inline-block;
+      width: 50%;
+      vertical-align: middle;
+      padding: 0 0 0.6% 0.5%;
+    }
+  }
+}

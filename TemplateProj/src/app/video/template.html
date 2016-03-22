@@ -1,0 +1,21 @@
+<ion-view>
+  <div class="vm-video animated zoomIn">
+    <div class="top-bar">
+      <i class="c-icn-close" ng-click="vmVideo.goBack()"></i>
+    </div>
+    <videogular vg-theme="vmVideo.config.theme" vg-player-ready="vmVideo.onPlayerReady($API)">
+
+      <vg-media vg-src="vmVideo.config.sources">
+      </vg-media>
+      <vg-controls>
+        <vg-play-pause-button></vg-play-pause-button>
+        <vg-scrub-bar>
+          <vg-scrub-bar-current-time></vg-scrub-bar-current-time>
+        </vg-scrub-bar>
+        <vg-fullscreen-button></vg-fullscreen-button>
+      </vg-controls>
+
+      <vg-overlay-play></vg-overlay-play>
+    </videogular>
+  </div>
+</ion-view>

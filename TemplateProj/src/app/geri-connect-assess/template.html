@@ -1,0 +1,17 @@
+<ion-view class="vm-geri-connect">
+  <div class="entry-body animated" ng-class="vmGeriConnect.getAnimationClass()" on-swipe-up="vmGeriConnect.swipeUp()" on-swipe-down="vmGeriConnect.swipeDown()">
+    <div class="entry-body-text">
+      <div marked="vmGeriConnect.pageCurrent.bodyText">
+      </div>
+    </div>
+    <a ng-repeat="featureButton in vmGeriConnect.pageCurrent.featureButtons" class="entry-button entry-button-{{$index}}" ng-click="featureButtonClick(featureButton)" ng-class="vmGeriConnect.getAnimationClass()">
+      <i class="icon" ng-class="featureButton.fields.buttonIconClass"></i>
+      <div class="button-text" marked="featureButton.fields.buttonText"></div>
+    </a>
+  </div>
+  <div class="leader-image animated-3s fadeIn" on-swipe-up="vmGeriConnect.swipeUp()" on-swipe-down="vmGeriConnect.swipeDown()" ng-if="!vmGeriConnect.isGifPlaying">
+    <img ng-src="{{vmGeriConnect.pageCurrent.leaderImage.fields.file.url}}" />
+    <img ng-src="{{vmGeriConnect.pageCurrent.pageAfter.fields.forwardGif.fields.file.url}}" class="hide" />
+    <img ng-src="{{vmGeriConnect.pageCurrent.pageBefore.fields.backwardGif.fields.file.url}}" class="hide" />
+  </div>
+</ion-view>

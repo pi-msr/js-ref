@@ -1,0 +1,21 @@
+<div class="nav-gif" ng-show="vmNavBar.gifUrl">
+  <img-gif ng-src="{{vmNavBar.gifUrl}}" />
+</div>
+<ion-nav-view class="nav-sub-view"></ion-nav-view>
+<div class="vm-nav-bar">
+  <div class="header-background animated slideInDown">
+    <img src="assets/images/header-background.png" />
+  </div>
+  <div class="nav-home" ui-sref="fertility"><i class="icon c-icn-home"></i></div>
+  <div class="nav-breadcrumb"><span ui-sref="home">IVF LABORATORY</span> > {{vmNavBar.navMenu.breadcrumbText}}</div>
+  <div class="nav-button-container animated" ng-class="vmNavBar.getAnimationClass()">
+    <div ng-repeat="featureButton in vmNavBar.navMenu.featureButtons" class="nav-button" ng-class="{ 'separator': $index > 0 }">
+      <a ng-click="featureButtonClick(featureButton)" ng-class="{ 'active-item': vmNavBar.activeIndex == $index }">
+        {{featureButton.fields.buttonText}}</a>
+    </div>
+  </div>
+  <div class="nav-section-logo" ng-if="vmNavBar.bodyLogo">
+    <img ng-src="{{vmNavBar.bodyLogo.fields.file.url}}" />
+  </div>
+</div>
+<div class="footer-background"><img src="assets/images/footer-background.png" /></div>

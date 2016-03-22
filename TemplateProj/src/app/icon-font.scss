@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "compendium-icons";
+  src: url("../fonts/compendium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="c-icn-"]:before,
+[class*=" c-icn-"]:before {
+  font-family: "compendium-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.c-icn-assessment:before {
+  content: "\61";
+}
+
+.c-icn-confirm:before {
+  content: "\62";
+}
+
+.c-icn-confirm-inactive:before {
+  content: "\63";
+}
+
+.c-icn-consultation:before {
+  content: "\64";
+}
+
+.c-icn-data:before {
+  content: "\65";
+}
+
+.c-icn-down:before {
+  content: "\66";
+}
+
+.c-icn-drug-treatment:before {
+  content: "\67";
+}
+
+.c-icn-fertilization:before {
+  content: "\68";
+}
+
+.c-icn-growth-management:before {
+  content: "\69";
+}
+
+.c-icn-home:before {
+  content: "\6a";
+}
+
+.c-icn-interactive:before {
+  content: "\6b";
+}
+
+.c-icn-ivf-lab:before {
+  content: "\6c";
+}
+
+.c-icn-left:before {
+  content: "\6d";
+}
+
+.c-icn-media:before {
+  content: "\6e";
+}
+
+.c-icn-menu-item:before {
+  content: "\6f";
+}
+
+.c-icn-oocyte-sperm:before {
+  content: "\70";
+}
+
+.c-icn-oocyte-sperm-preservation:before {
+  content: "\71";
+}
+
+.c-icn-pdf:before {
+  content: "\72";
+}
+
+.c-icn-pergnancy-support:before {
+  content: "\73";
+}
+
+.c-icn-preservation:before {
+  content: "\74";
+}
+
+.c-icn-right:before {
+  content: "\75";
+}
+
+.c-icn-transfer:before {
+  content: "\76";
+}
+
+.c-icn-up:before {
+  content: "\77";
+}
+
+.c-icn-close:before {
+  content: "\78";
+}
+
+.c-icn-pause:before {
+  content: "\79";
+}
+
+.c-icn-play:before {
+  content: "\7a";
+}
+
+.c-icn-scrubber:before {
+  content: "\41";
+}
+
+.c-icn-nav-down:before {
+  content: "\42";
+}
+
+.c-icn-nav-up:before {
+  content: "\43";
+}
+
+.c-icn-more-info:before {
+  content: "\44";
+}

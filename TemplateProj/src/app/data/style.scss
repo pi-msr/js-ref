@@ -1,0 +1,82 @@
+@import '../variables';
+.vm-data {
+  h3 {
+    font-size: 18px;
+    color: $compendium-purple;
+  }
+  h5 {
+    padding: 5px 40px;
+  }
+  h4 {
+    color: $compendium-purple;
+    padding: 0px 12px;
+  }
+  hr {
+    // add support to two Geri logos
+    margin-top: 80px;
+    border-width: 0;
+  }
+  strong,
+  .strong {
+    position: absolute;
+    margin-left: -8px;
+  }
+  .entry-body {
+    height: 100%;
+    width: 100%;
+  }
+  .entry-body-text {
+    position: absolute;
+    left: 0px;
+    top: 210px;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    padding-left: 76px;
+    p {
+      font-size: 9px;
+    }
+  }
+  .entry-button {
+    position: absolute;
+    top: 590px;
+    font-size: 14px;
+    z-index: 2;
+    .icon {
+      position: absolute;
+      color: $compendium-purple;
+      font-size: 60px;
+    }
+    .button-text {
+      padding-left: 85px;
+      width: 235px;
+      padding-top: 10px;
+    }
+  }
+  .entry-button-0 {
+    left: 75px;
+    height: 60px;
+  }
+  .entry-button-1 {
+    .icon {
+      font-size: 40px;
+    }
+    left: 900px;
+    .button-text {
+      position: absolute;
+      left: -240px;
+    }
+  }
+  ul {
+    margin-left: -23px;
+    li {
+      padding-left: 10px;
+      &:nth-of-type(3n-1) {
+        border-left: 10px solid #95D4D1;
+      }
+      &:nth-of-type(3n-2) {
+        border-left: 10px solid #A5CD50;
+      }
+    }
+  }
+}

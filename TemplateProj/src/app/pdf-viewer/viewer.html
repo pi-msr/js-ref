@@ -1,0 +1,20 @@
+<nav class="pdf-controls-nav animated slideInDown">
+	<i class="icon pdf-button c-icn-close" ng-click="vmPdfViewer.back()"></i>
+</nav>
+
+<ion-scroll zooming="true" direction="xy" class="ion-scroller animated slideInUp" min-zoom="1.0" has-bouncing="false">
+  <canvas id="pdf" class="rotate0"></canvas>
+</ion-scroll>
+
+<div class="pdf-footer animated slideInUp">
+	<div class="pdf-controls-footer">
+		<div style="margin-left:45%">
+			<i class="icon c-icn-nav-down" id="next-button" ng-click="goNext()"></i>
+			<span style="color:#FFFFFF;">
+				<input type="number" class="page-num" min="1" ng-model="pageNum" required>
+				&nbsp;&nbsp;of&nbsp;&nbsp;{{pageCount}}
+			</span>
+			<i class="icon c-icn-nav-up" id="prev-button" ng-click="goPrevious()"></i>
+		</div>
+	</div>
+</div>
