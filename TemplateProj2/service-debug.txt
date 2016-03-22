@@ -1,0 +1,7 @@
+This is a document pointing out the service debug calls
+==========================================================================================
+
+1. Read Register Service Call
+
+	call:
+		angular.element(document.body).injector().get('ipaDll').readRegister(0x00);

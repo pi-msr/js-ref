@@ -1,0 +1,10 @@
+node_modules/
+bower_components/
+coverage/
+.sass-cache/
+.idea/
+.tmp/
+cordova/platforms
+cordova/www
+cordova/plugins
+

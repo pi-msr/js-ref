@@ -1,0 +1,11 @@
+/* Add custom tab icon - vertical tabs */
+
+.tabs-vertical .tab-nav.tabs a.tab-item .icon.grpah-icon-v {
+   height: 50px !important;
+   width: 60px !important;
+   display: flex !important;
+   background-repeat: no-repeat !important;
+   background-position: 50% !important;
+   background-image: url('../img/side-tabs/graph.png') !important;
+   background-size:inherit !important;
+}

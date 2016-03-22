@@ -1,0 +1,65 @@
+<ion-view>
+  <ion-content  ng-class="{'vertical-tab-content': vm.isDevice}">
+     	<div class="row">
+			<div class="main-header">IPA Bluetooth Devices</div>
+		</div>			
+			
+			<div class="padding">
+				<!--Device List -->
+				<div class="list">
+				  <label class="item item-input item-select">
+				    <div class="input-label">
+				      Device
+				    </div>
+				    <select id="deviceList" ng-model="vm.selectedDevice" ng-change="vm.diconnectFromDevice()">				     				     
+				      <option ng-repeat="device in vm.availableBtdevices" value="{{device.address}}">{{device.name}}</option>
+				    </select>
+				  </label>
+				</div>
+
+				<!--Cmd List -->
+				<div class="list">
+				  <label class="item item-input item-select">
+				    <div class="input-label">
+				      Command
+				    </div>
+				    <select id="cmdList" ng-model="vm.selectedCmd" ng-change="vm.emptyPayLoad()">				     				     
+				      <option ng-repeat="cmd in vm.cmdList" value="{{cmd.cmdval}}">{{cmd.cmdname}}</option>
+				    </select>
+				  </label>
+				</div>
+
+				<!-- Payload Text -->
+				<ion-input class="padding">
+		    		<input type="text" placeholder="Payload Text here" ng-model="vm.payLoadText">
+		  		</ion-input>
+
+				<!-- Connection Statusus -->
+				<ion-list>
+  					<ion-item>
+    					<span>{{vm.devivceConnStatus}}</span>
+  					</ion-item>
+				</ion-list>			
+
+				<!-- Control Buttons -->
+				<button class="button button-full button-positive" ng-click="vm.connectToDevice()" ng-disabled="vm.isDeviceConnected">
+  					Connect to Device
+				</button>
+				<button class="button button-full button-positive" ng-click="vm.writeToDevice()" ng-disabled="!vm.isDeviceConnected">
+  					Write to Device
+				</button>
+				<button class="button button-full button-positive" ng-click="vm.checkDataAvailability()" ng-disabled="!vm.isDeviceConnected">
+  					Check Data Availability
+				</button>
+				<button class="button button-full button-positive" ng-click="vm.readFromDevice()" ng-disabled="!vm.isDeviceConnected">
+  					Read From Device
+				</button>
+
+				<!-- Cmd out put (Inner HTML) -->
+				<div id="console" name="console" class="console">					
+				<div>
+		</div>
+		
+  </ion-content>
+</ion-view>
+
